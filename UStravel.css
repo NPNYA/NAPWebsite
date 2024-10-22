@@ -1,0 +1,316 @@
+
+.image-container{
+	position: absolute;
+	width: 520px;
+	height: 551px;
+}
+.image-container img{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+}
+.image-container img:first-child{
+	z-index: 1;
+}
+.image-container img.foreground-image{
+	z-index: 2;
+}
+.image-container img.foreground-image{
+	width: 150px;
+	height: 150px;
+}
+.image-container img.background-image{
+	width: 1920px;
+	height: 200px;
+}
+.image-container img.foreground-image{
+	position: absolute;
+	top: 30px;
+	left: 40px;
+}
+.image-container img.barrier{
+	position: absolute;
+	width: 500px;
+	height: 2px;
+}
+.image-container img.barrier{
+	position: absolute;
+	top: 100px;
+	left: 205px;
+}
+.image-container img.barrier{
+	z-index: 2;
+}
+.Lower_Nav_Frame{
+	position: absolute;
+	width: 1920px;
+	height: 100px;
+}
+.Lower_Nav_Frame{
+	top: 300px;
+}
+.Lower_Nav_Frame{
+	z-index: 1;
+}
+
+.Nav_Frame{
+	position: absolute;
+	width: 1920px;
+	height: 100px;
+}
+.Nav_Frame{
+	top: 200px;
+}
+.Nav_Frame{
+	z-index: 1;
+}
+.Red_Barrier{
+	position: absolute;
+	width: 1920px;
+	height: 10px;
+}
+.Red_Barrier{
+	top: 150px;
+}
+.Red_Barrier{
+	z-index: 2;
+}
+
+.text-container{
+	font-size: 40px;
+}
+.text-container{
+	font-family: "Oswald Regular";
+}
+.text-container{
+	color: white;
+}
+.text-container{
+	z-index: 2;
+}
+.text-container{
+	position: absolute;
+	top: 55px;
+	left: 220px;
+}
+.text-container_departmental_information{
+	font-size: 20px;
+}
+.text-container_departmental_information{
+	font-family: 'Oswald Regular';
+}
+.text-container_departmental_information{
+	z-index: 2;
+}
+.text-container_departmental_information{
+	position: absolute;
+	top: 115px;
+	left: 220px;
+}
+.text-container_departmental_information{
+	color: white;
+}
+.text-container_US_Passports{
+	font-size: 15px
+}
+.text-container_US_Passports{
+	font-weight: 900px;
+}
+.text-container_US_Passports{
+	color: white;
+}
+.text-container_US_Passports{
+	z-index: 2;
+}
+.text-container_US_Passports{
+	position: absolute;
+	top: 220px;
+	left: 40px;
+}.text-container_International_Travel{
+	font-size: 15px
+}
+.text-container_International_Travel{
+	font-weight: 900px;
+}
+.text-container_International_Travel{
+	color: white;
+}
+.text-container_International_Travel{
+	z-index: 2;
+}
+.text-container_International_Travel{
+	position: absolute;
+	top: 220px;
+	left: 200px;
+}
+.text-container_US_Visas{
+	font-size: 15px
+}
+.text-container_US_Visas{
+	font-weight: 900px;
+}
+.text-container_US_Visas{
+	color: white;
+}
+.text-container_US_Visas{
+	z-index: 2;
+}
+.text-container_US_Visas{
+	position: absolute;
+	top: 220px;
+	left: 400px;
+}
+.text-container_Intercountry_Adoption{
+	font-size: 15px
+}
+.text-container_Intercountry_Adoption{
+	font-weight: 900px;
+}
+.text-container_Intercountry_Adoption{
+	color: white;
+}
+.text-container_Intercountry_Adoption{
+	z-index: 2;
+}
+.text-container_Intercountry_Adoption{
+	position: absolute;
+	top: 220px;
+	left: 540px;
+}
+.text-container_International_Parental_Child_Abduction{
+	font-size: 15px
+}
+.text-container_International_Parental_Child_Abduction{
+	font-weight: 900px;
+}
+.text-container_International_Parental_Child_Abduction{
+	color: white;
+}
+.text-container_International_Parental_Child_Abduction{
+	z-index: 2;
+}
+.text-container_International_Parental_Child_Abduction{
+	position: absolute;
+	top: 220px;
+	left: 780px;
+}
+.text-container_Replace_or_Certify_Documents{
+	font-size: 15px
+}
+.text-container_Replace_or_Certify_Documents{
+	font-weight: 900px;
+}
+.text-container_Replace_or_Certify_Documents{
+	color: white;
+}
+.text-container_Replace_or_Certify_Documents{
+	z-index: 2;
+}
+.text-container_Replace_or_Certify_Documents{
+	position: absolute;
+	top: 220px;
+	left: 1100px;
+}
+.text-container_Tourism_And_Visit{
+	font-size: 15px
+}
+.text-container_Tourism_And_Visit{
+	font-weight: 900px;
+}
+.text-container_Tourism_And_Visit{
+	color: purple;
+}
+.text-container_Tourism_And_Visit{
+	z-index: 2;
+}
+.text-container_Tourism_And_Visit{
+	position: absolute;
+	top: 330px;
+	left: 40px;
+}.text-container_Business{
+	font-size: 15px
+}
+.text-container_Business{
+	font-weight: 900px;
+}
+.text-container_Business{
+	color: purple;
+}
+.text-container_Business{
+	z-index: 2;
+}
+.text-container_Business{
+	position: absolute;
+	top: 330px;
+	left: 200px;
+}
+.text-container_Employment{
+	font-size: 15px
+}
+.text-container_Employment{
+	font-weight: 900px;
+}
+.text-container_Employment{
+	color: purple;
+}
+.text-container_Employment{
+	z-index: 2;
+}
+.text-container_Employment{
+	position: absolute;
+	top: 330px;
+	left: 330px;
+}
+.text-container_Study_And_Exchange{
+	font-size: 15px
+}
+.text-container_Study_And_Exchange{
+	font-weight: 900px;
+}
+.text-container_Study_And_Exchange{
+	color: purple;
+}
+.text-container_Study_And_Exchange{
+	z-index: 2;
+}
+.text-container_Study_And_Exchange{
+	position: absolute;
+	top: 330px;
+	left: 480px;
+}
+.text-container_Immigrate{
+	font-size: 15px
+}
+.text-container_Immigrate{
+	font-weight: 900px;
+}
+.text-container_Immigrate{
+	color: purple;
+}
+.text-container_Immigrate{
+	z-index: 2;
+}
+.text-container_Immigrate{
+	position: absolute;
+	top: 330px;
+	left: 660px;
+}
+.text-container_Other_Visa_Categories{
+	font-size: 15px
+}
+.text-container_Other_Visa_Categories{
+	font-weight: 900px;
+}
+.text-container_Other_Visa_Categories{
+	color: purple;
+}
+.text-container_Other_Visa_Categories{
+	z-index: 2;
+}
+.text-container_Other_Visa_Categories{
+	position: absolute;
+	top: 330px;
+	left: 800px;
+}
